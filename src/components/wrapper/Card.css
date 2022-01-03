@@ -1,0 +1,10 @@
+.card {
+  color: #333;
+  border-radius: 15px;
+  padding: 40px 50px;
+}
+
+.card.reverse {
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+}

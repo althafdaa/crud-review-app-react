@@ -1,0 +1,11 @@
+.about-link {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.about-link:hover {
+  color: rgb(97, 97, 221);
+}

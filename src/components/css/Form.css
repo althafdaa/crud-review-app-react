@@ -1,0 +1,14 @@
+.btn-send {
+  background: rgb(56, 56, 56);
+  color: white;
+}
+
+.btn-send:hover,
+.btn-send:active {
+  background: #aaaaaa;
+  color: black;
+}
+
+.btn-send:active {
+  transform: scale(0.95);
+}

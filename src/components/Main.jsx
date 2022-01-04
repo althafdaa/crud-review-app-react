@@ -4,12 +4,12 @@ import ReviewList from './ReviewList';
 import Form from './Form';
 import ReviewStats from './ReviewStats';
 
-const Main = ({ data, onDelete }) => {
+const Main = () => {
   return (
     <main className='container'>
       <Form />
-      <ReviewStats data={data} />
-      <ReviewList onDelete={onDelete} data={data} />
+      <ReviewStats />
+      <ReviewList />
     </main>
   );
 };

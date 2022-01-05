@@ -24,7 +24,7 @@ const Form = () => {
   }, [reviewEdit]);
 
   const inputHandler = (text) => {
-    if (review === '' || rating === 0) {
+    if (review === '' && rating === 0) {
       setBtnDisabled(true);
       setAlert(null);
     } else if (review !== '' && review.trim().length <= 10) {

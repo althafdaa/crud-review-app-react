@@ -8,7 +8,7 @@ export const ReviewProvider = ({ children }) => {
     {
       id: 1,
       rating: 10,
-      text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, maxime!',
+      text: 'Your product is excellent, lets do repeat order for next month!',
     },
   ]);
 

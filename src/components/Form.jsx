@@ -11,7 +11,7 @@ const Form = () => {
   const [review, setReview] = useState('');
   const [btnDisabled, setBtnDisabled] = useState(true);
   const [alert, setAlert] = useState('');
-  const [rating, setRating] = useState(0);
+  const [rating, setRating] = useState();
   const [isUpdating, setIsUpdating] = useState(false);
 
   useEffect(() => {
@@ -64,7 +64,7 @@ const Form = () => {
     e.preventDefault();
     if (review.trim().length > 10) {
       const newReview = {
-        review: review,
+        text: review,
         rating: rating,
       };
 

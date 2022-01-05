@@ -12,10 +12,10 @@ const RatingReview = ({ RatingSelected }) => {
     setWhichRating(reviewEdit.item.rating);
   }, [reviewEdit]);
 
-  useEffect(() => {
-    RatingSelected(0);
-    setWhichRating(0);
-  }, [onUpdateContext]);
+  // useEffect(() => {
+  //   RatingSelected(0);
+  //   setWhichRating(0);
+  // }, [onUpdateContext]);
 
   const ratingHandlerOnChange = (e) => {
     RatingSelected(+e.currentTarget.value);

@@ -1,0 +1,9 @@
+{
+  "review": [
+    {
+      "text": "This CRUD App is connected to db.json in / folder",
+      "rating": 10,
+      "id": 1
+    }
+  ]
+}

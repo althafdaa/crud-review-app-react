@@ -5,11 +5,12 @@ import ReviewContext from '../store/ReviewContext';
 const RatingReview = ({ RatingSelected }) => {
   const [whichRating, setWhichRating] = useState(0);
 
-  const { reviewEdit, onUpdateContext } = useContext(ReviewContext);
+  const { reviewEdit } = useContext(ReviewContext);
 
   useEffect(() => {
     RatingSelected(reviewEdit.item.rating);
     setWhichRating(reviewEdit.item.rating);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [reviewEdit]);
 
   // useEffect(() => {

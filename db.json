@@ -1,9 +1,19 @@
 {
   "review": [
     {
-      "text": "This CRUD App is connected to db.json in / folder",
+      "text": "Its connected to local databse with help of JSON server",
       "rating": 10,
       "id": 1
+    },
+    {
+      "text": "also my first project with react router",
+      "rating": 6,
+      "id": 2
+    },
+    {
+      "text": "This was inspired by any comment section/review section on websites",
+      "rating": 5,
+      "id": 3
     }
   ]
 }
